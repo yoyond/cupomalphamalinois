@@ -1,0 +1,66 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --text-color: #ffff;
+    --surface-color: #211816;
+    --font-family: "Montserrat", sans-serif;
+    --font-titles: "Ultra", sans-serif;
+
+    --text-sm:32px; 
+    --text-md: 36px;
+    --text-xsm: 24px;
+    --text-lg: 48px;
+    --text-xl: 96px;
+    
+}
+
+body {
+    background-image: url(/assets/background.png);
+    background-size: contain;
+    font-family: var(--font-family);
+    color: var(--text-color);
+}
+
+h1 {
+    font-size: var(--text-xl);
+    font-family: var(--font-titles);
+}
+
+h2 {
+    font-size: var(--text-lg);
+    font-family: var(--font-titles);
+}
+
+h3 {
+    font-size: var(--text-md);
+    font-family: var(--font-family);
+}
+
+h4 {
+    font-size: var(--text-sm);
+    font-family: var(--font-titles);
+}
+
+h5 {
+    font-size: var(--text-xsm);
+    font-family: var(--font-family);
+}
+
+a {
+    font-family: var(--font-family);
+}
+
+.shape {
+    background-color: #211816;
+    width: 58.4rem;
+    height: auto;
+    border-radius: 4.3rem;
+    padding: 3rem;
+    margin: 10rem auto;
+    border:#2c1f1b solid 0.2rem;
+}

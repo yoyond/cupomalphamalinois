@@ -1,0 +1,11 @@
+a {
+    font-size: 20px;
+    font-family: var(--font-family);
+}
+
+footer img {
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 100%;
+    border: solid 0.1rem  rgb(187, 187, 187);
+}
