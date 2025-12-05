@@ -63,11 +63,53 @@ a {
 
 .shape {
     background-color: #211816;
-    width: 58.4rem;
-    height: auto;
+    width: 935px;
+    height: 1740px;
     border-radius: 4.3rem;
     padding: 3rem;
     margin: 10rem auto;
     border: #2c1f1b solid 0.2rem;
 }
 
+.coupon-container {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;            
+    margin: 15px 0;
+}
+
+.coupon-code {
+    font-family: 'Ultra', serif;
+    font-size: var(--text-lg);
+    color: #ffffff;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1rem;
+    vertical-align: baseline;
+}
+
+/* Só o botão recebe o estilo pill laranja */
+.copy-btn {
+    background: #ff6b00;
+    color: white;
+    border: none;
+    padding: 14px 32px;
+    border-radius: 50px;                 /* pill só no botão */
+    font-weight: bold;
+    font-size: 18px 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 20px rgba(255, 107, 0, 0.4);
+    white-space: nowrap;
+}
+
+.copy-btn:hover {
+    background: #e65c00;
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 12px 30px rgba(255, 107, 0, 0.5);
+}
+
+.copy-btn:active {
+    transform: translateY(0);
+}

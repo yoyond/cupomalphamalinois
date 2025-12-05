@@ -32,7 +32,13 @@
         <div class="animation">
             <h3>usando o cupom</h3>
             <h2>
-                ALPHAMALINOIS 
+               <div class="coupon-container">
+        <span class="coupon-code" id="cupom">ALPHAMALINOIS</span>
+        <button class="copy-btn" onclick="copiarCupom()" title="Copiar cupom">
+            Copiar
+        </button>
+    </div>
+                <div class="line-wrapper"> 
                 <span class="b-line">você compra</span>
                 <span class="tags">
                     <span class="words">
@@ -42,37 +48,111 @@
                     <span>equipamentos</span>
                     <span>raçôes</span>
                     <span>de tudo!</span>
-                    </span>
                 </span>
+            </div>
             </h2>
         </div>
     </section>
-
-    <section class="products">
-        <h2>• RECOMENDADOS:</h2>
-        <h5>Produtos que recomendo para você comprar sem medo.</h5>
-        <div>
-<img src="assets/img_kong.jpg" alt="Kong">
-<img src="assets/img_orelha.jpg" alt="Orelha Bovina Natural Farm">
-<img src="assets/img_unificada.jpg" alt="Guia unificada K9 sprite">
-<img src="assets/img_brinquedo_zeedog.jpg" alt="Brinquedo Zee.Dog Brain Dead para Cães">
-        </div>
-    </section>
+<section class="products">
+    <h2>• RECOMENDADOS:</h2> 
+    <h5>Produtos que recomendo para você comprar sem medo.</h5>
+    <div class="links">
+        <span class="product-span">
+            <a href="https://www.petz.com.br/produto/brinquedo-kong-classic-vermelho-para-caes-177803" target="_blank">
+                <div class="product-container">
+                    <img class="default-img" src="assets/img_kong.jpg" alt="Kong">
+                    <img class="hover-img" src="assets/img_kong_2.jpg" alt="Kong"> 
+                    <div class="caption">Kong</div>
+                </div>
+            </a>
+        </span>
+        <span class="product-span">
+            <a href="https://www.petz.com.br/produto/osso-orelha-suina-com-3-unidades-para-caes-natural-farm-166990" target="_blank">
+                <div class="product-container">
+                    <img class="default-img" src="assets/img_orelha.jpg" alt="Orelha Suína Natural Farm">
+                    <img class="hover-img" src="assets/img_orelha_2.jpg" alt="Orelha Suína Natural Farm"> 
+                    <div class="caption">Orelha Suína Natural Farm</div>
+                </div>
+            </a>
+        </span>
+        <span class="product-span">
+            <a href="https://www.petz.com.br/produto/guia-k9-spirit-unificada-fita-de-poliester-11mm-preta-para-caes-99513" target="_blank">
+                <div class="product-container">
+                    <img class="default-img" src="assets/img_unificada.jpg" alt="Guia unificada K9 sprite">
+                     <img class="hover-img" src="assets/img_unificada.jpg" alt="Guia unificada K9 sprite"> 
+                    <div class="caption">Guia unificada K9 sprite</div>
+                </div>
+            </a>
+        </span>
+        <span class="product-span">
+            <a href="https://www.petz.com.br/produto/brinquedo-zeedog-brain-dead-para-caes-155025" target="_blank">
+                <div class="product-container">
+                    <img class="default-img" src="assets/img_brinquedo_zeedog.jpg" alt="Brinquedo Zee.Dog Brain Dead para Cães">
+                    <img class="hover-img" src="assets/img_brinquedo.zeedog2.jpg" alt="Brinquedo Zee.Dog Brain Dead para Cães"> 
+                    <div class="caption">Brinquedo Zee.Dog Brain Dead para Cães</div>
+                </div>
+            </a>
+        </span>
+    </div> 
+</section>
     <footer>
         <h2>• MARCAS:</h2>
-        <div>
-<img src="assets/icons/brand_1.png" alt="">
-<img src="assets/icons/brand_gran.png" alt="">
-<img src="assets/icons/brand_guabi.png" alt="">
-<img src="assets/icons/brand_kong.png" alt="">
-<img src="assets/icons/brand_natural.png" alt="">
-<img src="assets/icons/brand_petz.png" alt="">
-<img src="assets/icons/brand_quatree.png" alt="">
-<img src="assets/icons/brand_royal.png" alt="">
-<img src="assets/icons/brand_zeedog.png" alt="">
+        <div class="brands">
+
+     <a href="https://www.petz.com.br/cansei-de-ser-gato" target="_blank" rel="noopener noreferrer" class="logo-link">
+        <img src="assets/icons/brand_1.png" alt="Cansei de ser gato">
+    </a>
+
+<a href="https://www.petz.com.br/busca?q=gran%20plus&faceta=/f/marca_granplus" target="_blank" rel="noopener noreferrer" class="logo-link">
+    <img src="assets/icons/brand_gran.png" alt="Gran Plus">
+</a>
+<a href="https://www.petz.com.br/busca?q=guabi&faceta=/f/marca_guabi-natural" target="_blank" rel="noopener noreferrer" class="logo-link">
+    <img src="assets/icons/brand_guabi.png" alt="Guabi">
+</a>
+<a href="https://www.petz.com.br/busca?q=kong&faceta=/f/marca_kong" target="_blank" rel="noopener noreferrer" class="logo-link">
+    <img src="assets/icons/brand_kong.png" alt="KONG">
+</a>
+<a href="https://www.petz.com.br/busca?q=natural%20farm&faceta=/f/marca_natural-farm" target="_blank" rel="noopener noreferrer" class="logo-link">
+    <img src="assets/icons/brand_natural.png" alt="Natural Farm">
+</a>
+<a href="https://www.petz.com.br/petz" target="_blank" rel="noopener noreferrer" class="logo-link">
+    <img src="assets/icons/brand_petz.png" alt="Petz">
+</a>
+<a href="https://www.petz.com.br/quatree" target="_blank" rel="noopener noreferrer" class="logo-link">
+    <img src="assets/icons/brand_quatree.png" alt="Quatree">
+</a>
+<a href="https://www.petz.com.br/royal-canin" target="_blank" rel="noopener noreferrer" class="logo-link">
+    <img src="assets/icons/brand_royal.png" alt="Royal Canin">
+</a>
+<a href="https://www.petz.com.br/zee-dog" target="_blank" rel="noopener noreferrer" class="logo-link">
+    <img src="assets/icons/brand_zeedog.png" alt="Zee.dog">
+</a>
         </div>
         <a>Desenvolvido por Lohanne Fraga</a>
     </footer>
 </div>
+
+<script>
+function copiarCupom() {
+  navigator.clipboard.writeText('ALPHAMALINOIS')
+    .then(() => {
+      const btn = document.querySelector('.copy-btn');
+      const textoOriginal = btn.innerHTML;
+      btn.innerHTML = 'Copiado!';
+      btn.style.background = '#27ae60';
+      btn.style.transform = 'scale(1.1)';
+      setTimeout(() => {
+        btn.innerHTML = textoOriginal;
+        btn.style.background = '';
+        btn.style.transform = '';
+      }, 2000);
+    })
+    .catch(() => {
+      alert('Não foi possível copiar. Selecione e copie manualmente: ALPHAMALINOIS');
+    });
+}
+</script>
+
+
 </body>
 </html>

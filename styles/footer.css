@@ -9,3 +9,49 @@ footer img {
     border-radius: 100%;
     border: solid 0.1rem  rgb(187, 187, 187);
 }
+
+footer {
+    width: 51.5rem;
+    height: 11.9rem;
+    padding-top: 12rem;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.brands {
+    display: flex;
+    overflow-x: auto; 
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    scroll-snap-align: center;
+    gap: 1.3rem;
+    padding: 1rem 0;
+    white-space: nowrap; 
+}
+
+.brands::-webkit-scrollbar {
+    display: none;
+}
+
+
+footer a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 2rem;
+    color:rgb(94, 86, 83);
+}
+
+@media (max-width: 768px) {
+    .logos-container {
+        gap: 1.3rem;
+    }
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+}
