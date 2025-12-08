@@ -20,7 +20,7 @@
 }
 
 body {
-    background-image: url(assets/background.png);
+    background-image: url(../assets/background.png);
     background-size: contain;
     font-family: var(--font-family);
     color: var(--text-color);
