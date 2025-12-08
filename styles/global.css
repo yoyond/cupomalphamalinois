@@ -123,7 +123,7 @@ a {
     body {
         width: 100%;
         height: auto;
-        background-image: url(/assets/background.png);
+        background-image: url(../assets/background.png);
         background-size: cover; 
         background-position: center;
     }
