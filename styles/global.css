@@ -9,6 +9,13 @@ html, body {
   min-height: 100%;
 }
 
+body {
+ transform: scale(0.8);
+  transform-origin: top left;
+  width: 125%; /* 1 / 0.8 */
+  height: 125%;
+}
+
 :root {
     --text-color: #ffff;
     --surface-color: #211816;
@@ -73,6 +80,7 @@ a {
     padding: 3rem;
     margin: 10rem auto;
     border: #2c1f1b solid 0.2rem;
+
 }
 
 .coupon-container {

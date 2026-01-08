@@ -2,6 +2,7 @@ header img {
 border-radius: 100%;
 width: 19.7rem;
 height: 19.7rem;
+border: #2e1202 solid 0.1rem;
 }
 
 .logo {
