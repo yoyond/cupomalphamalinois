@@ -10,20 +10,21 @@
     <title>Parceiro Petz</title>
 </head>
 <body>
-    <div class="shape">
-    <header>
+ <div class="shape">
+      <header>
         <div class="logo">
-<img src="assets/profile.png" alt="Petz! Tudo que seu pet precisa.">
-</div>
-<section class="title">
-    <h4>ACHADINHOS DO</h4>
-    <h1>ALPHA</h1>
-    <h3>Aproveite os melhores produtos Pet selecionados!🔥
-    </h3>
-</section>
-    </header>
+        <img src="assets/profile.png" alt="Petz! Tudo que seu pet precisa.">
+        </div>
+        <section class="title">
+        <h4>ACHADINHOS DO</h4>
+        <h1>ALPHA</h1>
+        <h3>APROVEITE OS MELHORES PRODUTOS PET SELECIONADOS!🔥
+        </h3>
+        </section>
+        </header>
 
-    <section class="hero">
+        <section class="hero">
+
         <div class="line-wrapper"> 
                 <span class="b-line">Aqui você compra</span>
                 <span class="tags">
@@ -36,28 +37,49 @@
                     <span>de tudo!</span>
                 </span>
              </div>
-            </h2>
-        </div>
+  
         
         <div class="buttons">
-            <a class="cobasi" href="" target="_blank">SÓ ACHEI NA COBASI</a>
-            <a class="shopee" href="" target="_blank">ACHADINHOS SHOPEE</a>
-            <a class="petlove" href="" target="_blank">Plano de Saúde Petlove!</a>
+            <a class="cobasi" href="" target="_blank">
+                <img src="assets/icons/cobasi.png" alt="logo cobasi">SÓ ACHEI NA COBASI
+            </a>
+            <a class="shopee" href="" target="_blank">
+                <img src="assets/icons/shopee.png" alt="logo shopee">ACHADINHOS SHOPEE
+            </a>
+            <a class="petlove" href="" target="_blank">
+                <img src="assets/icons/petlove.svg" alt="logo petlove">Plano de Saúde Petlove!
+            </a>
         </div>
     
         <div class="coupon-container">
-        <span>Cupom Petz 10%OFF:</span>
+        <span>
+            <img src="assets/icons/logo.png" alt="logo petz">
+            Cupom Petz 10%OFF:
+        </span>
         <span class="coupon-code" id="cupom">ALPHAMALINOIS</span>
             <button class="copy-btn" onclick="copiarCupom()" title="Copiar cupom">
             Copiar
                 </button>
          </div>
+    </section>
+
+<span class="choose-pet">Produtos para:</span>
+
+<section class="roll-page">
+    <div class="icons"> 
+        <button>
+         <img src="assets/icons/cat.png" alt="Gatos">
+        </button>
+        <button>
+ <img src="assets/icons/dog.png" alt="Cachorros">
+        </button>
+    </div>
 </section>
 
-
 <section class="products">
-    <h2>• RECOMENDADOS:</h2> 
+    <h2>•SELECIONADOS•</h2> 
     <h5>Produtos que recomendo para você comprar sem medo.</h5>
+</section>
     <div class="links">
         <span class="product-span">
             <a href="https://www.petz.com.br/produto/brinquedo-kong-classic-vermelho-para-caes-177803" target="_blank">
@@ -96,44 +118,11 @@
             </a>
         </span>
     </div> 
-</section>
+
     <footer>
-        <h2>• MARCAS:</h2>
-        <div class="brands">
-
-     <a href="https://www.petz.com.br/cansei-de-ser-gato" target="_blank" rel="noopener noreferrer" class="logo-link">
-        <img src="assets/icons/brand_1.png" alt="Cansei de ser gato">
-    </a>
-
-<a href="https://www.petz.com.br/busca?q=gran%20plus&faceta=/f/marca_granplus" target="_blank" rel="noopener noreferrer" class="logo-link">
-    <img src="assets/icons/brand_gran.png" alt="Gran Plus">
-</a>
-<a href="https://www.petz.com.br/busca?q=guabi&faceta=/f/marca_guabi-natural" target="_blank" rel="noopener noreferrer" class="logo-link">
-    <img src="assets/icons/brand_guabi.png" alt="Guabi">
-</a>
-<a href="https://www.petz.com.br/busca?q=kong&faceta=/f/marca_kong" target="_blank" rel="noopener noreferrer" class="logo-link">
-    <img src="assets/icons/brand_kong.png" alt="KONG">
-</a>
-<a href="https://www.petz.com.br/busca?q=natural%20farm&faceta=/f/marca_natural-farm" target="_blank" rel="noopener noreferrer" class="logo-link">
-    <img src="assets/icons/brand_natural.png" alt="Natural Farm">
-</a>
-<a href="https://www.petz.com.br/petz" target="_blank" rel="noopener noreferrer" class="logo-link">
-    <img src="assets/icons/brand_petz.png" alt="Petz">
-</a>
-<a href="https://www.petz.com.br/quatree" target="_blank" rel="noopener noreferrer" class="logo-link">
-    <img src="assets/icons/brand_quatree.png" alt="Quatree">
-</a>
-<a href="https://www.petz.com.br/royal-canin" target="_blank" rel="noopener noreferrer" class="logo-link">
-    <img src="assets/icons/brand_royal.png" alt="Royal Canin">
-</a>
-<a href="https://www.petz.com.br/zee-dog" target="_blank" rel="noopener noreferrer" class="logo-link">
-    <img src="assets/icons/brand_zeedog.png" alt="Zee.dog">
-</a>
-        </div>
         <a>Desenvolvido por Lohanne Fraga</a>
     </footer>
 </div>
-
 <script>
 function copiarCupom() {
   navigator.clipboard.writeText('ALPHAMALINOIS')

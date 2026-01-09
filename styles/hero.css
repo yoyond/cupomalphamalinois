@@ -3,13 +3,51 @@
     flex-direction: column;
     text-align: center;
     margin-top: 15rem;
-     justify-content: flex-start; 
+    justify-content: flex-start; 
+    width: auto;
+    height: fit-content;
+
 }
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    max-height: fit-content;
+    padding-top: 3rem;
+}
+
+.buttons a {
+    display: flex;
+    flex-direction: row;
+    justify-items: auto;
+    align-items: center;
+
+}
+
+.buttons img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    margin-right: 3rem;
+}
+
+.coupon-container img {
+     width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+}
+
+.coupon-container span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 
 .coupon-container {
     background-color: rgb(40, 40, 41);
     padding: 1.5rem;
-    border-radius:60px;
+    border-radius:80px;
     align-self: center;
     border: solid rgb(75, 76, 77) 0.2rem;
 }
@@ -21,7 +59,7 @@
     flex-direction: column;
     margin: 1rem;
     margin-top: 0%;
-    border-radius:60px;
+    border-radius:80px;
     font-family: var(--font-titles);
     font-size: 35px;
     padding: 1.5rem;
@@ -44,7 +82,7 @@
     flex-direction: column;
     margin: 1rem;
     margin-top: 0%;
-    border-radius:60px;
+    border-radius:80px;
     font-family: var(--font-titles);
     font-size: 35px;
     padding: 1.5rem;
@@ -67,7 +105,7 @@
     flex-direction: column;
     margin: 1rem;
     margin-top: 0%;
-    border-radius:60px;
+    border-radius:80px;
     font-family: var(--font-titles);
     font-size: 35px;
     padding: 1.5rem;

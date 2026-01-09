@@ -1,7 +1,10 @@
 .products {
-    width: 49.6rem;
-    height: 39.1rem;
+    width: fit-content;
+    height: auto;
     padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .products div {
@@ -11,14 +14,12 @@
 .products h2, .products h5 {
     width: 44.8rem;
     height: auto;
-    padding-left: 1rem;
 }
 
 .links {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-    padding-left: 1rem;
 }
 
 .product-span {
@@ -108,4 +109,52 @@
     .caption {
         font-size: var(--text-xsm);
     }
+}
+
+.choose-pet {
+    font-family: var(--font-titles);
+    font-size: var(--text-sm);
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.roll-page {
+    width: auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -.5rem;
+}
+
+.icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.roll-page button {
+    margin-inline: 0.5rem;
+    overflow: hidden;
+    border-radius: 100%;
+    border: solid 0.2rem white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 20px rgba(255, 107, 0, 0.4);
+    white-space: nowrap;
+    margin-top: 2rem;
+}
+
+.roll-page button:hover {
+     transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 12px 30px rgba(255, 107, 0, 0.5);
+}
+
+.roll-page img {
+    border-radius: 100%;
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
 }
