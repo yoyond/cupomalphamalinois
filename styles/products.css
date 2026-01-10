@@ -1,7 +1,8 @@
 .products {
-    width: fit-content;
+    width: 100%;
     height: auto;
     padding-top: 3rem;
+    padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,14 +12,10 @@
     padding-top: 1.5rem;
 }
 
-.products h2, .products h5 {
-    width: 44.8rem;
-    height: auto;
-}
-
 .links {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
     gap: 1rem;
 }
 
@@ -28,11 +25,10 @@
 
 .product-container {
     position: relative;
-    width: 23.9rem;
+    width: 100%;
     height: 18.8rem;
-    border-radius: 43px;
+    border-radius: 10%;
     overflow: hidden; 
-    padding: 0.4rem;
 }
 
 .default-img, .hover-img {
