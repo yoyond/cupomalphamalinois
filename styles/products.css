@@ -8,6 +8,10 @@
     align-items: center;
 }
 
+html {
+  scroll-behavior:smooth;
+}
+
 .products div {
     padding-top: 1.5rem;
 }
