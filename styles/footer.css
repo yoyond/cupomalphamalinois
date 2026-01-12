@@ -18,36 +18,34 @@ footer img {
     align-items: center;
 }
 
+footer a {
+    color: rgb(58, 58, 58);
+   }
+
 
 
 @media (max-width: 480px) {
-    footer {
-        width: 100%;
-        height: auto;
-        padding-top: 2rem;
-    }
+   footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+   }
 
-    footer div {
-        justify-content: center;
-        flex-wrap: nowrap;
-    }
+   footer .social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   }
 
-    .brands {
-        gap: 1.5rem;
-    }
+   .social img {
+    width: 3rem;
+    height: auto;
+    margin-top: 2rem;
+   }
 
-    footer img {
-        width: 5rem;
-        height: 5rem;
-    }
-
-    footer a {
-        padding-top: 1rem;
-        font-size: 16px;
-    }
-
-    footer h2 {
-        font-size: x-large;
-        text-align: center;
-    }
+   footer a {
+    font-size: small;
+    color: rgb(58, 58, 58);
+   }
 }
